@@ -1,0 +1,98 @@
+{
+  "framework": "ShadowMatrix CDF",
+  "generatedAt": "2026-06-14T17:41:49.208Z",
+  "environment": "hybrid",
+  "maxDifficulty": "foundational",
+  "objectives": [
+    "early-warning"
+  ],
+  "techniques": [
+    {
+      "id": "SDF-PL02",
+      "name": "Deception Objective Definition",
+      "phase": "plan",
+      "difficulty": "foundational",
+      "detectionValue": "low",
+      "timeToImplement": "3-5 days",
+      "costEstimate": "minimal"
+    },
+    {
+      "id": "SDF-DP02",
+      "name": "Canary Token Distribution",
+      "phase": "deploy",
+      "difficulty": "foundational",
+      "detectionValue": "critical",
+      "timeToImplement": "1-3 days",
+      "costEstimate": "minimal"
+    },
+    {
+      "id": "SDF-DP06",
+      "name": "Trap Document Seeding",
+      "phase": "deploy",
+      "difficulty": "foundational",
+      "detectionValue": "high",
+      "timeToImplement": "1-2 days",
+      "costEstimate": "minimal"
+    },
+    {
+      "id": "SDF-LR01",
+      "name": "DNS Record Misdirection",
+      "phase": "lure",
+      "difficulty": "foundational",
+      "detectionValue": "medium",
+      "timeToImplement": "1-2 days",
+      "costEstimate": "minimal"
+    },
+    {
+      "id": "SDF-DT02",
+      "name": "Canary Alert Processing",
+      "phase": "detect",
+      "difficulty": "foundational",
+      "detectionValue": "critical",
+      "timeToImplement": "1-3 days",
+      "costEstimate": "minimal"
+    },
+    {
+      "id": "SDF-RS06",
+      "name": "Stakeholder Reporting",
+      "phase": "respond",
+      "difficulty": "foundational",
+      "detectionValue": "low",
+      "timeToImplement": "ongoing",
+      "costEstimate": "minimal"
+    }
+  ],
+  "summary": {
+    "totalTechniques": 6,
+    "byPhase": [
+      {
+        "phase": "Plan",
+        "count": 1
+      },
+      {
+        "phase": "Prepare",
+        "count": 0
+      },
+      {
+        "phase": "Deploy",
+        "count": 2
+      },
+      {
+        "phase": "Lure",
+        "count": 1
+      },
+      {
+        "phase": "Detect",
+        "count": 1
+      },
+      {
+        "phase": "Analyze",
+        "count": 0
+      },
+      {
+        "phase": "Respond",
+        "count": 1
+      }
+    ]
+  }
+}
